@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthaService {
-  private apiUrl = 'https://projeto-integrador-1v4i.onrender.com/admin/auth';
+  private apiUrl = 'https://api.piatividade100.duckdns.org/admin/auth';
 
   constructor(private http: HttpClient) {}
 

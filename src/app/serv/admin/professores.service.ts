@@ -6,8 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProfessoresService {
-  private apiUrl = 'https://projeto-integrador-1v4i.onrender.com/teacher/';  // Nova URL da API
-  private cursosUrl = 'https://projeto-integrador-1v4i.onrender.com/courses'; // Caso precise acessar cursos também
+  private apiUrl = 'https://api.piatividade100.duckdns.org/teacher/';  // Nova URL da API
+  private cursosUrl = 'https://api.piatividade100.duckdns.org/courses'; // Caso precise acessar cursos também
 
   constructor(private http: HttpClient) { }
 
